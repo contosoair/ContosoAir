@@ -1,3 +1,6 @@
+const appInsights = require("applicationinsights");
+appInsights.setup("eb4aa12f-e442-4c1b-b186-4b16063cda17");
+appInsights.start();
 const express = require('express');
 const path = require('path');
 const logger = require('morgan');
